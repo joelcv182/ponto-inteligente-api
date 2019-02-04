@@ -5,8 +5,10 @@ import java.util.*;
 
 import javax.persistence.*;
 
-import com.kzale.pontointeligente.api.enums.TipoEnum;
+import com.kazale.pontointeligente.api.enums.TipoEnum;
 
+@Entity
+@Table(name = "lancamento")
 public class Lancamento implements Serializable {
 	
 	private static final long serialVersionUID = 6524560251526772839L;
@@ -35,6 +37,7 @@ public class Lancamento implements Serializable {
 	}
 
 	@Temporal(TemporalType.TIMESTAMP)
+	@Column(name = "data", nullable = false)
 	public Date getData() {
 		return data;
 	}

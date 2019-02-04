@@ -6,7 +6,7 @@ import java.util.*;
 
 import javax.persistence.*;
 
-import com.kzale.pontointeligente.api.enums.PerfilEnum;
+import com.kazale.pontointeligente.api.enums.PerfilEnum;
 
 
 @Entity

@@ -7,10 +7,8 @@ import java.util.List;
 import javax.persistence.*;
 
 
-import org.springframework.data.annotation.Id;
-
 @Entity
-@Table(name = "Empresa")
+@Table(name = "empresa")
 
 public class Empresa implements Serializable {
 	
